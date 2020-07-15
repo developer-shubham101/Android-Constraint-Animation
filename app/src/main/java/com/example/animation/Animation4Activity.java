@@ -11,7 +11,7 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 
-public class AnimationFood2Activity extends AppCompatActivity {
+public class Animation4Activity extends AppCompatActivity {
 
     private boolean firsAnim = false;
     private boolean secondAnim = false;
@@ -34,7 +34,7 @@ public class AnimationFood2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animation_food2);
+        setContentView(R.layout.activity_animation4);
 
         mainWrapper = findViewById(R.id.mainFood);
         bottomWrapper1 = findViewById(R.id.bottomWrapper1);

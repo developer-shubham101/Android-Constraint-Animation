@@ -4,15 +4,11 @@ package com.example.animation;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.constraint.ConstraintSet;
-import android.support.constraint.solver.widgets.ConstraintWidget;
 import android.support.v7.app.AppCompatActivity;
-import android.transition.ChangeBounds;
 import android.transition.TransitionManager;
 import android.view.View;
-import android.view.animation.AnticipateInterpolator;
-import android.widget.ImageView;
 
-public class AnimationActivity extends AppCompatActivity {
+public class Animation1Activity extends AppCompatActivity {
 
     private ConstraintLayout constraintLayout;
     private ConstraintSet applyConstraintSet = new ConstraintSet();
@@ -21,7 +17,7 @@ public class AnimationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animation);
+        setContentView(R.layout.activity_animation1);
         constraintLayout = findViewById(R.id.main);
         resetConstraintSet.clone(constraintLayout);
         applyConstraintSet.clone(constraintLayout);
